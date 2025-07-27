@@ -25,7 +25,13 @@ SECRET_KEY = 'django-insecure-_5+iud$8p!39uhuy6r2nwighrr4vpdw*fe%jk3sf**f@fhah+n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['facebook-account-login.up.railway.app', '0.0.0.0',
+    '127.0.0.1',
+    'localhost', ]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://facebook-account-login.up.railway.app',
+]
 
 
 # Application definition
