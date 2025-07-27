@@ -27,11 +27,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['facebook-account-login.up.railway.app', '0.0.0.0',
     '127.0.0.1',
-    'localhost', ]
+    'localhost',
+     'fb-production-00e9.up.railway.app' ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://facebook-account-login.up.railway.app',
+    'https://fb-production-00e9.up.railway.app',
 ]
+
 
 
 # Application definition
