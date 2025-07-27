@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import os
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -32,6 +34,7 @@ ALLOWED_HOSTS = ['facebook-account-login.up.railway.app', '0.0.0.0',
 
 CSRF_TRUSTED_ORIGINS = [
     'https://fb-production-00e9.up.railway.app',
+    'https://facebook-account-login.up.railway.app',
 ]
 
 
